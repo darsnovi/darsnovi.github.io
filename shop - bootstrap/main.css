@@ -1,0 +1,159 @@
+h1 {
+    font-family: Helvetica; 
+    font-size: 22px;
+    text-align: center;
+    color: darkred;
+    font-weight: bold;
+}
+h3 {
+    font-family: Helvetica; 
+    font-size: 16px;
+    text-align: center;
+    color: darkred;
+    font-weight: bold;
+}
+p {text-align: center}
+.price {
+    color: rgb(82, 16, 16);
+    font-size: 24px;
+    font-weight: bold;
+}
+.main-menu li {
+    display: inline-block;
+    background-color: lightblue;
+    padding: 12px;
+    line-height: 1.6;
+    font-size: 18pt;
+    font-weight: bold;
+  }
+  .main-menu li:hover {
+    background-color: darkblue;
+    color: white;
+  }
+  .main-menu {
+    text-align: center;
+    font-size: 20pt;
+    color: darkblue;
+  }
+  .category-menu li {
+    display: inline-block;
+    /*background-color: yellow;*/
+    line-height: 1.5;
+    font-size: 16pt;
+    padding: 12px;
+  }
+  .category-menu li:hover {
+    background-color: rgb(87, 87, 7);
+    color: white;
+  }
+  .story {
+    color: darkblue;
+    font-size: 14px;
+    height: 150px;
+    width: 1000px;
+    background-color: lightgrey;
+    border: solid 4px darkgrey;
+    padding: 10px;
+    position: relative;
+    left: 40px;
+    top: 15px;
+  }
+  .story2 {
+    color: darkblue;
+    font-size: 20px;
+    height: 50px;
+    width: 1000px;
+    background-color: lightyellow;
+    border: solid 4px darkgrey;
+    padding: 10px;
+    position: relative;
+    left: 40px;
+    margin: 0px;
+  }
+  .rule {
+    font-size: 24px;
+    background-color: yellow;
+  }
+  .photo :hover {
+    border: solid red;
+  }
+.all {
+  position: relative;
+  top: 150px;
+}
+div.gallery {
+  position: relative;
+  background-color: lightsteelblue;
+  border: steelblue solid 3px;
+  height: 900px;
+  width: 900px;
+}
+
+div.image {
+  position: absolute;  
+  margin: 20px;
+  border: gray solid 3px;
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#image1 {
+  background-image: url(../shop/Images/1.jpg);
+  top: 0px;
+  left: 0px;
+}
+
+div#image1:hover {
+  background-image: url(../shop/Images/1.jpg);
+  width: 600px;
+  z-index: 20;
+  top: 225px;
+  left: 100px;
+}
+
+div#image2 {
+  background-image: url(../shop/Images/2.jpg);
+  top: 400px;
+  left: 0px;
+}
+
+div#image2:hover {
+  background-image: url(../shop/Images/2.jpg);
+  width: 600px;
+  z-index: 20;
+}
+
+div#image3 {
+  background-image: url(../shop/Images/3.jpg);
+  top: 0px;
+  right: 0px;
+}
+div#image3:hover {
+  background-image: url(../shop/Images/3.jpg);
+  width: 600px;
+  z-index: 20;
+}
+
+div#image4 {
+  background-image: url(../shop/Images/4.jpg);
+  top: 400px;
+  right: 0px;
+}
+div#image4:hover {
+  background-image: url(../shop/Images/4.jpg);
+  width: 600px;
+  z-index: 20;
+}
+.box {
+  color: blue;
+  font-family: Arial; 
+  font-size: 30px;
+  height: 70px;
+  width: 1000px;
+  background-color: lightgrey;
+  border: solid 4px darkgrey;
+  padding: 10px;
+}

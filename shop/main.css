@@ -26,6 +26,7 @@ p {text-align: center}
     font-size: 18pt;
     font-weight: bold;
   }
+  }
   .main-menu li:hover {
     background-color: darkblue;
     color: white;
